@@ -1,0 +1,99 @@
+body {
+    font-family: 'Helvetica Neue', 'helvetica', 'sans-serif';
+}
+
+#log {
+    height: 313px;
+    display: block;
+    width: 350px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 105px;
+    overflow-x: hidden;
+    line-height: 24px;
+}
+
+label {
+    position: relative;
+    left: 95px;
+    line-height: 24px;
+}
+
+table {
+    background-color: white;
+}
+
+td.white {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: 25pt;
+    width: 20pt;
+    border: 1pt black solid;
+}
+
+td.black {
+    height: 25pt;
+    width: 20pt;
+    background-color: black;
+}
+
+td.number {
+    background-color: white;
+    font-size: 10pt;
+    margin-top: 1pt;
+    margin-left: 1pt;
+}
+
+td.selected {
+    height: 25pt;
+    width: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #99c68e;
+    border: 1pt black solid;
+}
+
+spacer {
+    width: 20pt;
+}
+
+#clues {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 465px;
+    font-size: 0.8em;
+}
+
+#clues th,
+#clues td {
+    width: 50%;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+button {
+    position: absolute;
+    height: 150px;
+    border-radius: 150px;
+    width: 150px;
+    font-size: 37px;
+    background-color: #99c68e;
+    border: none;
+    color: #333;
+    right: 50px;
+}
+
+pre {
+    margin-top: 35px;
+}
+
+.stop {
+    background-color: #f75d59;
+}
+
+#crossword {
+    margin: auto;
+    margin-bottom: 35px;
+}
