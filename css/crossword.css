@@ -5,17 +5,17 @@ body {
 #log {
     height: 313px;
     display: block;
-    width: 350px;
+    width: 325px;
     border: 1px solid #ccc;
     position: absolute;
-    left: 105px;
+    left: 150px;
     overflow-x: hidden;
     line-height: 24px;
 }
 
 label {
     position: relative;
-    left: 95px;
+    left: 141px;
     line-height: 24px;
 }
 
