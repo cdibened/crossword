@@ -5,7 +5,7 @@
 ## Overview
 ---
 
-A very simple speech-based crossword puzzle.  
+A very simple speech-based crossword puzzle.  Forgive the horrible code.  Completed over the duration of a latte in a coffee-shop.  
 
 Since this application uses [webkitSpeechRecongition](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html), supported browsers are:
 
